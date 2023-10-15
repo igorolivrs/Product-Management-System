@@ -13,6 +13,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductsComponent } from './views/products/products.component';
 import { ProductsCreateComponent } from './components/products/products-create/products-create.component';
+import { ProductsReadComponent } from './components/products/products-read/products-read.component';
 
 // Angular Material
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -24,6 +25,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort'
+
 
 
 
@@ -35,7 +40,8 @@ import { MatInputModule } from '@angular/material/input';
     NavComponent,
     HomeComponent,
     ProductsComponent,
-    ProductsCreateComponent
+    ProductsCreateComponent,
+    ProductsReadComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +56,10 @@ import { MatInputModule } from '@angular/material/input';
     MatSnackBarModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

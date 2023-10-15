@@ -1,0 +1,11 @@
+table, mat-form-field {
+    width: 100%;
+}
+
+i.edit {
+    color: rgb(70, 70, 207)
+}
+
+i.delete {
+    color: rgb(219, 36, 36)
+}
