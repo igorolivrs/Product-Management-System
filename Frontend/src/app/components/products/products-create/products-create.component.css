@@ -1,0 +1,20 @@
+mat-card {
+    padding: 20px;
+}
+
+mat-card-title {
+    margin: 10px 0 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    margin: 20px 20px 0 0;
+}

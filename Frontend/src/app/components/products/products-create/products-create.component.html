@@ -1,1 +1,21 @@
-<p>products-create works!</p>
+<mat-card>
+    <mat-card-title>Register New Product</mat-card-title>
+    <form action="">
+        <mat-form-field>
+            <input matInput placeholder="Name" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Price" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+
+    <div class="button-container">
+        <button mat-raised-button color="primary" (click)="createProduct()">
+            Save
+        </button>
+    
+        <button mat-raised-button (click)="cancel()">
+            Cancel
+        </button>
+    </div>
+</mat-card>
