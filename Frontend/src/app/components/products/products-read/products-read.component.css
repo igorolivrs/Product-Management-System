@@ -6,6 +6,10 @@ i.edit {
     color: rgb(70, 70, 207)
 }
 
+i:hover {
+    cursor: pointer;
+}
+
 i.delete {
     color: rgb(219, 36, 36)
 }

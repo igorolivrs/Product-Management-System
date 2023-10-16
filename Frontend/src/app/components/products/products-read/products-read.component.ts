@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../products.service';
 import { Product } from '../product.model';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 @Component({
@@ -13,9 +14,7 @@ export class ProductsReadComponent implements OnInit {
   products: Product[] = [];
   displayedColumns: string[] = ['id', 'name', 'price', 'action'];
 
-
-
-  constructor(private productService: ProductsService) {  }
+  constructor(private productService: ProductsService, private route: Router ) {  }
 
   ngOnInit(): void {
     this.readProducts();
@@ -31,5 +30,8 @@ export class ProductsReadComponent implements OnInit {
 
   }
 
+  goToUpdate(id: number) {
+    this.route.navigate(['products/update/', id])
+  }
 
 }

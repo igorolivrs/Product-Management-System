@@ -24,7 +24,7 @@
             <ng-container matColumnDef="action">
                 <th mat-header-cell *matHeaderCellDef> ACTION </th>
                 <td mat-cell *matCellDef="let product">
-                    <a>
+                    <a (click)="goToUpdate(product.id)">
                         <i class="material-icons edit">
                             edit
                         </i>

@@ -27,7 +27,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort'
+import { MatSortModule } from '@angular/material/sort';
+import { ProductsUpdateComponent } from './components/products/products-update/products-update.component'
 
 
 
@@ -41,7 +42,8 @@ import { MatSortModule } from '@angular/material/sort'
     HomeComponent,
     ProductsComponent,
     ProductsCreateComponent,
-    ProductsReadComponent
+    ProductsReadComponent,
+    ProductsUpdateComponent
   ],
   imports: [
     BrowserModule,

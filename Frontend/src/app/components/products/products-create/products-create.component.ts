@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import { Component } from '@angular/core';
 import { ProductsService } from '../products.service';
 import { Router } from '@angular/router';
