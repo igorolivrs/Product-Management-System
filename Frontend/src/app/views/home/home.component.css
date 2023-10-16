@@ -7,3 +7,11 @@
 .home .subtitle{
  font-size: 1.5rem;
 }
+
+mat-card {
+    padding: 20px;
+}
+
+mat-card-title {
+    margin: 10px 0 20px 0;
+}
