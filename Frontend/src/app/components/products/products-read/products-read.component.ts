@@ -14,7 +14,7 @@ export class ProductsReadComponent implements OnInit {
   products: Product[] = [];
   displayedColumns: string[] = ['id', 'name', 'price', 'action'];
 
-  constructor(private productService: ProductsService, private route: Router ) {  }
+  constructor(private productService: ProductsService, private router: Router ) {  }
 
   ngOnInit(): void {
     this.readProducts();
@@ -31,7 +31,12 @@ export class ProductsReadComponent implements OnInit {
   }
 
   goToUpdate(id: number) {
-    this.route.navigate(['products/update/', id])
+    this.router.navigate(['products/update/', id])
   }
+  
+  goToDelete(id: number) {
+    this.router.navigate(['products/delete/',id])
+  }
+
 
 }

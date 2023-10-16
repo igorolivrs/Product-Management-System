@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Azul",
-      "price": "3.80"
-    },
-    {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.9
-    },
-    {
       "id": 3,
       "name": "Samsung S20+",
       "price": 5000.5
@@ -24,11 +14,6 @@
       "name": "Xbox Series S",
       "price": "399.99",
       "id": 5
-    },
-    {
-      "name": "Pop Funko Naruto",
-      "price": "14.99",
-      "id": 6
     }
   ]
 }

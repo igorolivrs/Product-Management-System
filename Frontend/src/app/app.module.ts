@@ -28,7 +28,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
-import { ProductsUpdateComponent } from './components/products/products-update/products-update.component'
+import { ProductsUpdateComponent } from './components/products/products-update/products-update.component';
+import { ProductsDeleteComponent } from './components/products/products-delete/products-delete.component'
 
 
 
@@ -43,7 +44,8 @@ import { ProductsUpdateComponent } from './components/products/products-update/p
     ProductsComponent,
     ProductsCreateComponent,
     ProductsReadComponent,
-    ProductsUpdateComponent
+    ProductsUpdateComponent,
+    ProductsDeleteComponent
   ],
   imports: [
     BrowserModule,
