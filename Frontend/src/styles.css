@@ -3,6 +3,17 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-.red {
-    color: rgb(227,94, 107);
+.mat-mdc-snack-bar-container {
+
+    &.msg-success {
+      --mdc-snackbar-container-color: #28a745;
+      --mat-mdc-snack-bar-button-color: #fff;
+      --mdc-snackbar-supporting-text-color: #fff;
+    }
+
+    &.msg-error {
+      --mdc-snackbar-container-color: #e35e6b;
+      --mat-mdc-snack-bar-button-color: #fff;
+      --mdc-snackbar-supporting-text-color: #fff;
+    }
 }
